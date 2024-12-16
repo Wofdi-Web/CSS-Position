@@ -87,3 +87,17 @@ body {
     // right: 0px;
     // bottom: 0px;
 }
+
+
+// Static & Relative
+.item-2 {
+    position: static;
+    right: 10px;
+    top: 100px;
+}
+
+.item-3 {
+    position: relative;
+    right: 30px;
+    top: -40px;
+}

@@ -82,4 +82,16 @@ body {
   position: absolute;
   top: -110px;
   left: -200px;
+}
+
+.item-2 {
+  position: static;
+  right: 10px;
+  top: 100px;
+}
+
+.item-3 {
+  position: relative;
+  right: 30px;
+  top: -40px;
 }/*# sourceMappingURL=style.css.map */

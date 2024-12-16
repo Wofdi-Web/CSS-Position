@@ -5,6 +5,10 @@
     font-family: monospace;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     margin: 10em 30em;
     display: grid;
@@ -16,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    // border: 2px solid black;
     height: 100px;
     width: 100px;
     border-radius: 7px;
@@ -58,4 +62,28 @@
 }
 .item-12 {
     background-color: #50d5e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Absolute
+.container {
+    position: relative;
+}
+.item-1 {
+    position: absolute;
+    top: -110px;
+    left: -200px;
+    // right: 0px;
+    // bottom: 0px;
 }

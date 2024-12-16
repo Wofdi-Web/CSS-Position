@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  margin: 10em 30em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1em;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+
+.item-1 {
+  background-color: aliceblue;
+}
+
+.item-2 {
+  background-color: aquamarine;
+}
+
+.item-3 {
+  background-color: burlywood;
+}
+
+.item-4 {
+  background-color: salmon;
+}
+
+.item-5 {
+  background-color: tomato;
+}
+
+.item-6 {
+  background-color: chartreuse;
+}
+
+.item-7 {
+  background-color: #c73e3e;
+}
+
+.item-8 {
+  background-color: #f0cc56;
+}
+
+.item-9 {
+  background-color: #aaf177;
+}
+
+.item-10 {
+  background-color: #5075e7;
+}
+
+.item-11 {
+  background-color: #d25f7c;
+}
+
+.item-12 {
+  background-color: #50d5e7;
+}/*# sourceMappingURL=style.css.map */
